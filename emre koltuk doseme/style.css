@@ -1,0 +1,235 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* Site kodları */
+
+a{
+    text-decoration: none;
+}
+#header-string{
+ margin-left: 15%;
+ margin-top: 10px;
+}
+#header-string a{
+    text-decoration: none;
+    color: white;
+    font-size: 3em;
+}
+
+header .up-header{
+    height: 4.5em;
+    display: flex;
+    background-color:#00467F;
+   color:white;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+#logo-png{
+    height: 4.5em;
+    border-radius: 60%;
+    margin-left:45% ;
+}
+
+.up-header-social-bar{
+
+  position: absolute;
+  right: 0;
+  margin-right: 5%;
+  margin-top: 0.5rem;
+ 
+}
+.up-header-social-bar li{
+    display: inline-block;
+    position: relative;    
+    list-style-type:none;
+}
+.bottom-header{
+ margin-top: 1em;
+
+}
+.bottom-header ul{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.bottom-header ul a{
+    text-decoration: none;
+    color:black;
+} 
+.bottom-header ul a li{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration:none ;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ max-width: 10em;
+    border: 4px #00467F solid;
+    border-radius: 5px;
+    letter-spacing: 3px;    
+   margin-left: 1em;
+  padding: 9px;
+ font-size: large;
+ font-style: bold;
+ }
+ .bottom-header ul a li:hover{
+    background-color:#00467F ;
+    color: white;
+    border-radius: 4px;
+ }
+section{
+    display: flex;
+    margin-top: 2em;
+}
+.big-section{
+   
+    width: 60%;
+    height: 500px;
+    max-height: 600px;
+    margin-left: 5px;
+
+}
+.big-section img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+.small-section{
+max-width: 40%;
+width: 40%;
+}
+.small-section-boxes{
+
+}
+.up-boxes{
+    display: flex;
+}
+.down-boxes{
+    display: flex;
+}
+.small-section h1{
+    margin: auto;
+    height:1.5em;
+    text-align: center;
+    font-size: 3em;
+    color: #00467F;
+}
+.box{
+
+    margin: auto;
+    background-color: #00467F;
+    max-width: 280px;
+    width: 280px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+.box-2{
+    margin-top:0.5em;
+}
+.box-3{
+    margin-top:0.5em;
+}
+.box-title{
+  
+     color: white;
+     font-weight: bold;
+     font-size:x-large;
+     padding-top: 15px;
+}
+
+
+.box-text{
+    color:white ;
+font-family: Arial, Helvetica, sans-serif;
+     font-size: small;
+    margin-top: 20px;
+
+}
+
+.box .box-img img{
+
+    width:60px;
+    margin-top: 20px;
+
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+.box img:hover{
+    transform: scale(1.9);
+    -webkit-transform: scale(2.2);
+}
+
+
+button{
+    background-color: rgb(37, 211, 102);
+  width:200px;
+  display: flex;
+  border:1px rgb(37, 211, 102)  solid;
+  border-radius: 20%;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+  position: fixed;
+  margin-left: 25px;
+  }
+  button p{
+      margin-left: 15px;
+      font-size: 1.4em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-top: 15px;
+  }
+  button img{
+      margin-top: 4px;
+  }
+  a{
+      text-decoration: none;
+  }
+  button:hover{
+      transform: scale(1.9);
+      -webkit-transform: scale(1.4);
+  }
